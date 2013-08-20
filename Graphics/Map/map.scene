@@ -1,0 +1,203 @@
+<scene exported_by="cow" formatVersion="1.0.1" previous_export_time="1336440820.481903" export_time="1336440829.405538" >
+	<nodes >
+		<node name="Sun" >
+			<position y="46.745258" x="0.000000" z="0.000000" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<light type="directional" name="Sun" powerScale="1.0" >
+				<position y="46.745258" x="0.000000" z="0.000000" />
+				<lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.04" />
+				<direction y="-0.0" x="-0.0" z="-1.0" />
+				<colourDiffuse r="1.0" b="1.0" g="1.0" />
+				<colourSpecular r="1.0" b="1.0" g="1.0" />
+			</light>
+		</node>
+		<node name="Sphere" >
+			<position y="0.000000" x="0.000000" z="0.000000" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="12.694850" x="12.694850" z="12.694850" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Sphere.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Sphere" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Point.003" >
+			<position y="2.113380" x="32.829762" z="-22.287235" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="5.000000" x="5.000000" z="5.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<light type="point" name="Point.003" powerScale="1.0" >
+				<position y="2.113380" x="32.829762" z="-22.287235" />
+				<lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.04" />
+				<colourDiffuse r="1.0" b="1.0" g="1.0" />
+				<colourSpecular r="1.0" b="1.0" g="1.0" />
+			</light>
+		</node>
+		<node name="Point.002" >
+			<position y="-1.795357" x="0.049450" z="19.490791" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="5.000000" x="5.000000" z="5.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<light type="point" name="Point.002" powerScale="1.0" >
+				<position y="-1.795357" x="0.049450" z="19.490791" />
+				<lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.04" />
+				<colourDiffuse r="1.0" b="1.0" g="1.0" />
+				<colourSpecular r="1.0" b="1.0" g="1.0" />
+			</light>
+		</node>
+		<node name="Point.001" >
+			<position y="3.602387" x="-24.471972" z="-19.355972" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="5.000000" x="5.000000" z="5.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<light type="point" name="Point.001" powerScale="1.0" >
+				<position y="3.602387" x="-24.471972" z="-19.355972" />
+				<lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.04" />
+				<colourDiffuse r="1.0" b="1.0" g="1.0" />
+				<colourSpecular r="1.0" b="1.0" g="1.0" />
+			</light>
+		</node>
+		<node name="Point" >
+			<position y="1.485007" x="-0.122799" z="4.962248" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="5.000000" x="5.000000" z="5.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<light type="point" name="Point" powerScale="1.0" >
+				<position y="1.485007" x="-0.122799" z="4.962248" />
+				<lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.04" />
+				<colourDiffuse r="1.0" b="1.0" g="1.0" />
+				<colourSpecular r="1.0" b="1.0" g="1.0" />
+			</light>
+		</node>
+		<node name="Forest" >
+			<position y="-2.168277" x="-26.551353" z="-29.357231" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="0.807957" x="0.807957" z="0.667198" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="tree_mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="tree_mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Silo" >
+			<position y="-0.119112" x="31.687904" z="-27.439747" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="2.361700" x="2.361700" z="2.361700" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="silo_mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="silo_mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Barn" >
+			<position y="-0.843893" x="29.018068" z="30.446917" />
+			<rotation qy="0.000000" qx="0.000000" qz="1.000000" qw="0.000000" />
+			<scale y="2.425878" x="2.425878" z="2.425878" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="barn_mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="barn_mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Statue" >
+			<position y="-2.582441" x="-0.014082" z="17.522722" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="1.515285" x="1.515285" z="1.515285" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="statue_mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="statue_mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="fence" >
+			<position y="0.973014" x="0.000045" z="1.671734" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="0.310514" x="0.334530" z="0.183096" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="fence_mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="fence_mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="house" >
+			<position y="2.334023" x="1.175566" z="2.407330" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="1.583025" x="1.583025" z="1.583025" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="house_mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="house_mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="earth" >
+			<position y="-1.794481" x="1.175567" z="1.870880" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="4.561027" x="4.558138" z="4.561027" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="earh_mesh.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="earh_mesh" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+		<node name="Lamp" >
+			<position y="-0.885555" x="0.273123" z="14.810930" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />
+			<scale y="5.000000" x="5.000000" z="5.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<light shadow="true" type="point" name="Lamp" powerScale="1.0" >
+				<position y="-0.885555" x="0.273123" z="14.810930" />
+				<lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.03333335240683057" />
+				<colourDiffuse r="1.0" b="1.0" g="1.0" />
+				<colourSpecular r="1.0" b="1.0" g="1.0" />
+				<colourShadow r="1.0" b="1.0" g="1.0" />
+			</light>
+		</node>
+	</nodes>
+	<externals >
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/sky_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/tree_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/silo_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/barn_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/statue_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/fence_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/house_mat.material" />
+		</item>
+		<item type="material" >
+			<file name="/home/cow/Documents/school/cse171/Zombies/Graphics/Map/earth_mat.material" />
+		</item>
+	</externals>
+	<environment />
+</scene>

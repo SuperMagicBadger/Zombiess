@@ -1,0 +1,40 @@
+
+// blender material: scout_mat
+material scout_mat 
+{
+    receive_shadows on
+    technique b2ogre_1336459164.249944
+    {
+        pass b2ogre_1336459164.25012
+        {
+            ambient 0.04579935222864151 0.800000011920929 0.0 1.0
+            diffuse 0.007655223445894865 0.13371758660253263 0.0 1.0
+            specular 0.0 0.038709674030542374 0.03661954005431056 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit b2ogre_1336459164.251051
+            {
+                texture scout_map.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+        }
+    }
+}

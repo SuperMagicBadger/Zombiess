@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zombies", "Zombies\Zombies.vcxproj", "{1F3FBD98-EB41-4C35-977B-1E2A834D551C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zombiesServer", "zombiesServer\zombiesServer.vcxproj", "{F50A281E-71DF-46F5-9153-0C61CC00D36A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3FBD98-EB41-4C35-977B-1E2A834D551C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F3FBD98-EB41-4C35-977B-1E2A834D551C}.Debug|Win32.Build.0 = Debug|Win32
+		{1F3FBD98-EB41-4C35-977B-1E2A834D551C}.Release|Win32.ActiveCfg = Release|Win32
+		{1F3FBD98-EB41-4C35-977B-1E2A834D551C}.Release|Win32.Build.0 = Release|Win32
+		{F50A281E-71DF-46F5-9153-0C61CC00D36A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F50A281E-71DF-46F5-9153-0C61CC00D36A}.Debug|Win32.Build.0 = Debug|Win32
+		{F50A281E-71DF-46F5-9153-0C61CC00D36A}.Release|Win32.ActiveCfg = Release|Win32
+		{F50A281E-71DF-46F5-9153-0C61CC00D36A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

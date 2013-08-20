@@ -1,0 +1,6 @@
+[Texture]
+File Splash.png
+whitepixel 0 0
+
+[Sprites]
+splash 0, 0, 640, 350
